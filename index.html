@@ -47,7 +47,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/CV.pdf')"
+            onclick="window.open('./assets/CV.pdf', '_blank')"
           >
             Download CV
           </button>
@@ -60,13 +60,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https:https://www.linkedin.com/in/zakaria-samlali-b8539616b/'"
+            onclick="window.open('https://www.linkedin.com/in/zakaria-samlali-b8539616b/', '_blank')"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https:https://github.com/zakaria2010'"
+            onclick="window.open('https://github.com/zakaria2010', '_blank')"
           />
         </div>
       </div>
@@ -91,7 +91,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>1 years <br />software engineer</p>
+              <p>1 years <br />Software Engineer</p>
             </div>
             <div class="details-container">
               <img
@@ -100,35 +100,31 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>software engineer<br />License Web Development and Mobile Applications</p>
-              <p>Diploma in Computer Network Techniques<br />Bachelor's degree in Life and Earth Sciences</p>
+              <p>
+                State Engineer<br/> in Computer and Networks with (MIAGE) specialization
+                <br />
+                Moroccan School of Engineering Sciences (EMSI) Rabat
+            </p>
             </div>
           </div>
           <div class="text-container">
             <p>
-                Zakaria SAMLALI, Ingénieur Logiciel dédié et adaptable, excelle dans l'analyse et 
-                la synthèse pour créer des solutions innovantes. 
-                Avec une expertise en C, C++, JAVA, Spring Boot, et React.js, JavaScript, ainsi qu'une 
-                solide compréhension des bases de données et des pratiques DevOps, 
-                il a contribué à des projets de refonte de systèmes d'information métier et de 
-                développement front-end pour des entreprises renommées. Passionné par l'apprentissage 
-                continu, il cherche désormais de nouvelles opportunités pour stimuler l'innovation dans le 
-                domaine du génie logiciel.
-
-
-
-
-
+                Zakaria SAMLALI, dedicated and adaptable Software Engineer, excels in analysis 
+                and synthesis to create innovative solutions. With expertise in C, C++, JAVA, 
+                Spring Boot, and React.js, JavaScript, as well as a solid understanding of databases 
+                and DevOps practices, he has contributed to projects to redesign business information systems 
+                and front-end development for renowned companies. Passionate about continuous learning, 
+                he is now looking for new opportunities to drive innovation in the field of software engineering.
             </p>
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
-      />
+      /> -->
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
@@ -138,6 +134,28 @@
           <div class="details-container">
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>ReactJs</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>JavaScript</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -160,28 +178,7 @@
                   <p>Experienced</p>
                 </div>
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
+              
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -190,7 +187,7 @@
                 />
                 <div>
                   <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -201,13 +198,35 @@
                 />
                 <div>
                   <h3>Material UI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Redux</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -238,7 +257,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
+                  <h3>JAVA</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -249,7 +268,29 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
+                  <h3>JEE</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spring Boot</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -257,12 +298,12 @@
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
-      />
+      /> -->
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
@@ -272,83 +313,83 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
-                alt="Project 1"
+                src="./assets/project.png"
+                alt="Project"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Notes-App</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://github.com/zakaria2010/Notes-App', '_blank')"
               >
                 Github
               </button>
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/project-1.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Quiz-App</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://github.com/zakaria2010/Quiz-App', '_blank')"
               >
                 Github
               </button>
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/project-3.jpg"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Game-Snake</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('https://github.com/zakaria2010/Snake', '_blank')"
               >
                 Github
               </button>
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
-      />
+      /> -->
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -368,7 +409,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/zakaria-samlali-b8539616b/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/zakaria-samlali-b8539616b/" target="_blank">LinkedIn</a></p>
         </div>
       </div>
     </section>
